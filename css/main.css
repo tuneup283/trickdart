@@ -2511,7 +2511,7 @@ html.no-csstransitions .home-content__main {
 .clients-testimonials .testimonials__image {
     margin: 0 auto 1.2rem auto;
     margin-bottom: 28px;
-    height: 300px;
+    /* height: 300px; */
 }
 .clients-testimonials .testimonials__line {
     border-top: 2px dotted #fff;
@@ -3927,7 +3927,7 @@ footer .row {
         object-fit: cover;
         position: absolute;
         width: 90%;
-        height: 40%;
+        /* height: 40%; */
     }
 }
 

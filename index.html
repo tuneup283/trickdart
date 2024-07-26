@@ -46,7 +46,7 @@
 </head>
 
 
-<body id="top" oncontextmenu="return false;">
+<body id="top" oncontextmenu="return true;">
     <!-- header -->
     <header class="s-header">
 
@@ -834,5 +834,29 @@
     <script src="js/plugins.js?202403121511"></script>
     <script src="js/aos.js"></script>
     <script src="js/main.js?202403121520"></script>
+
+    <!-- アンカーリンク遷移位置修正
+    ================================================== -->
+<!-- アンカーリンク遷移位置修正
+================================================== -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // 全てのアンカーリンクに対してイベントを設定
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - 500; // 500px 上にスクロール
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
