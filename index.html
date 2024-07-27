@@ -516,7 +516,7 @@
                 <div class="col-block service-item" data-aos="fade-right">
                     <div class="service-text">
                         <div class="bgextend_dev">
-                            <h2 class="h2 bgextend" id='profile'><span>PROFILE</span><span class="sub-title">プロフィール</span></h2>
+                            <h2 class="h2 bgextend anchor-profile" id='profile'><span>PROFILE</span><span class="sub-title">プロフィール</span></h2>
                             <div class="title-side-icon"><img src="images/character-01.png" alt="Takashi Fujiwaraのキャラクターアイコン1"></div>
                             <div class="bgextend_line"></div>
                         </div>
@@ -549,7 +549,7 @@
         </section> <!-- end PROFILE -->
 
         <!-- GEAR -->
-        <section id='gear'>
+        <section id='gear' class="anchor-gear">
             <div class="row services-list block-1-2 block-tab-full">
                 <div class="col-block service-item" data-aos="fade-right">
                     <div class="bgextend_dev">
@@ -834,29 +834,5 @@
     <script src="js/plugins.js?202403121511"></script>
     <script src="js/aos.js"></script>
     <script src="js/main.js?202403121520"></script>
-
-    <!-- アンカーリンク遷移位置修正
-    ================================================== -->
-<!-- アンカーリンク遷移位置修正
-================================================== -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // 全てのアンカーリンクに対してイベントを設定
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const targetId = this.getAttribute('href');
-                    const targetElement = document.querySelector(targetId);
-                    if (targetElement) {
-                        const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - 500; // 500px 上にスクロール
-                        window.scrollTo({
-                            top: targetPosition,
-                            behavior: 'smooth'
-                        });
-                    }
-                });
-            });
-        });
-    </script>
 </body>
 </html>

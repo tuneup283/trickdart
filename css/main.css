@@ -4199,3 +4199,15 @@ footer .row {
     transition-timing-function: ease-out;
     z-index: 999;
 }
+
+/* リンク先の位置を調整 */
+.anchor-gear{
+  display: block;
+  padding-top: 20px;
+  margin-top: -20px;
+}
+.anchor-profile{
+  display: block;
+  padding-top: 100px;
+  margin-top: -100px;
+}
