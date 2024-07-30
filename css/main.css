@@ -2261,7 +2261,7 @@ html.no-csstransitions .home-content__main {
     }
     .services-list .service-item.sp-only {
         margin-top: 50px;
-        margin-bottom: 40px;
+        margin-bottom: 0px;
     }
 }
 
