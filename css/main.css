@@ -2127,7 +2127,7 @@ html.no-csstransitions .home-content__main {
     margin-bottom: .9rem;
 }
 .s-works .services-list {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .services-list .service-item h3 {
@@ -2462,7 +2462,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .clients-testimonials .testimonials__slide {
-    padding: 0 1.7rem 1.7rem 1.7rem;
+    padding: 0 1.7rem 0rem 1.7rem;
 }
 .clients-testimonials .fishing__slide {
     padding: 0 3.0rem 1.7rem 1.7rem;
