@@ -1964,7 +1964,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 800px) {
     .s-works {
         padding-top: 2.2rem;
-        padding-bottom: 700px;
+        padding-bottom: 600px;
     }
 }
 
@@ -2287,7 +2287,7 @@ html.no-csstransitions .home-content__main {
 }
 @media only screen and (max-width: 500px) {
     #gear .services-list {
-        margin-top: 50px;
+        margin-top: 0px;
     }
 }
 
