@@ -3913,10 +3913,14 @@ footer .row {
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 30px;
+      display: none;
+    }
+    .modal-content.color-f{
+        background: transparent;
     }
     .modal-img {
       float: none;
-      width: 90%;
+      width: 100%;
       margin-left: auto;
       margin-right: auto;
       /* display: flex;
@@ -3926,7 +3930,7 @@ footer .row {
     .modal-img img {
         object-fit: cover;
         position: absolute;
-        width: 90%;
+        width: 100%;
         /* height: 40%; */
     }
     .modal-item .modal-title{

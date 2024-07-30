@@ -156,8 +156,8 @@
 
 /* 20240730追記 */
 /* モーダルを中央に配置するためのカスタムスタイル */
-#colorbox.centered {
+/* #colorbox.centered {
     top: 50% !important;
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
-}
+} */
