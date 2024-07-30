@@ -3909,7 +3909,7 @@ footer .row {
     .modal-item {
       float: none;
       width: 90%;
-      height: 200px;
+      height: 100px;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 30px;
@@ -3928,6 +3928,9 @@ footer .row {
         position: absolute;
         width: 90%;
         /* height: 40%; */
+    }
+    .modal-item .modal-title{
+        font-size: 2.5rem;
     }
 }
 
