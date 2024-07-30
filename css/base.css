@@ -926,3 +926,12 @@ textarea {
 
 
 /*# sourceMappingURL=base.css.map */
+
+
+/* 20240730追加分 */
+
+.modal-content img{
+  height: 540px;
+  object-fit: contain;
+  width: 100%;
+}
